@@ -9,3 +9,9 @@ Set up your Pi Pico C++ Environment by following the official documentation at: 
 4. Run "cmake .."
 5. run "make -j4"
 6. Copy the resulting sig_gen.uf2 to your Pi Pico
+
+
+Note:
+Generate new Logos from: http://www.majer.ch/lcd/adf_bitmap.php
+
+Credit: SSD1306 library from https://github.com/mbober1/RPi-Pico-SSD1306-library
