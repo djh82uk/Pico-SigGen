@@ -15,3 +15,7 @@ Note:
 Generate new Logos from: http://www.majer.ch/lcd/adf_bitmap.php
 
 Credit: SSD1306 library from https://github.com/mbober1/RPi-Pico-SSD1306-library
+
+Image:
+
+![alt text](https://github.com/djh82uk/Pico-SigGen/blob/main/SigGen.jpg)
