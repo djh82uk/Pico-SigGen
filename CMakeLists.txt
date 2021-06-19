@@ -15,6 +15,8 @@ pico_sdk_init()
 add_executable(sig_gen
 	siggen.cpp
 	)
+	
+pico_generate_pio_header(sig_gen ${CMAKE_CURRENT_LIST_DIR}/clk.pio)
 
 target_sources(sig_gen
     PUBLIC
@@ -27,6 +29,7 @@ target_link_libraries(sig_gen
   pico_stdlib
   hardware_i2c
   pico_multicore
+  hardware_pio
 )
 
 pico_enable_stdio_usb(sig_gen 1)
